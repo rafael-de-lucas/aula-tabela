@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELAS</title>
+    <style>
+        th,td {
+            border: 1px solid black;
+        }
+        tfoot{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+
+    <H1>TABELAS NO CÓDIGO</H1>
+
+    <table>
+        
+        <thead>
+            <tr>
+                <th>PRODUTO</th>
+                <th>QUANTIDADE</th>
+                <th>PREÇO</th>
+                <th>BLACK FRIDAY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>produto 1</td>
+                <td>2</td>
+                <td>5$</td>
+                <td rowspan="3" bgcolor="greenyellow"><center>sim</center></td>
+            </tr>
+            <tr>
+                <td>produto 2</td>
+                <td>5</td>
+                <td>10$</td>
+                
+            </tr>
+            <tr>
+                <td>produto 4</td>
+                <td>2</td>
+                <td>10$</td>
+                
+            </tr>
+            <tr>
+                <td>produto 3</td>
+                <td>3</td>
+                <td>15$</td>
+                <td rowspan="2" bgcolor="red"><center>não</center></td>
+            </tr>
+            <tr>
+                <td>produto 5</td>
+                <td>10</td>
+                <td>25$</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="3">TOTAL</td>
+                <td><center>R$ 65,00</center></td>
+            </tr>
+        </tfoot>
+
+
+
+    </table>
+</body>
+</html>
